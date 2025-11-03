@@ -31,8 +31,8 @@ If you use any materials, please cite the following relevant works.
 ```
 @article{MRAPAttNguyen25,
   author       = {Thanh Tuan Nguyen, Hoang Anh Pham, Thinh Vinh Le, and Thanh Phuong Nguyen},
-  title        = {Multiple channel-spatial residual attentive patterns for lightweight networks in image classification},
-  journal      = {Neurocomputing},
+  title        = {Diverse residual attentive patterns for lightweight networks in image classification},
+  journal      = {Expert Systems with Applications},
   note         = {Submitted 2025}
 }
 ```
