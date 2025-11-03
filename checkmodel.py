@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 22 15:31:57 2022
+Created on Sat Oct 22 15:31:57 2022 
 
 @author: tuann 
 """
@@ -19,3 +19,4 @@ print('Number of model parameters: {}'.format(
 #model.cuda()
 summary(model, (3, 224, 224))
 #summary(model, (3, 32, 32))
+
