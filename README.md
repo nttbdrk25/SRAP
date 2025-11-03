@@ -1,4 +1,4 @@
-# Multiple channel-spatial residual attentive patterns for lightweight networks in image classification
+# Diverse residual attentive patterns for lightweight networks in image classification
 **Abstract:**
 Attention mechanism allows deep convolutional networks to concentrate on the important patterns instead of on the less useful information during the learning process.
 However, the discriminative power of current attention modules is still at a modest level because they have just addressed either one type of global channel-wise patterns or an expensive combination of two kinds of squeezes. In the case of using two types of those, the resultant weight volume has been less discriminative information caused by two separate excitation perceptrons with a double increase of computational complexity.
