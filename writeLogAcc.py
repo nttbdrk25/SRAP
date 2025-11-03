@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 25 10:35:11 2022
+Created on Tue Oct 25 10:35:11 2022 
 
 @author: tuann 
 """
@@ -18,3 +18,4 @@ def writeLogAcc(filename='LogAcc1.txt', strtext=''):
     strtext = dt_string + ' ' + strtext + '\n'
     file1.writelines(strtext)
     file1.close() #to change file access modes
+
