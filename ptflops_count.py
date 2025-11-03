@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb 10 17:25:35 2023
+Created on Fri Feb 10 17:25:35 2023 
 
 @author: tuann  
 """
@@ -25,3 +25,4 @@ with torch.cuda.device(0):
   print('Number of model parameters (referred)): {}'.format(
       sum([p.data.nelement() for p in model.parameters()])))
   #summary(model, (3, 224, 224))
+
