@@ -10,7 +10,7 @@ Experimental results on benchmark datasets for image recognition have authentica
 <u>**An example for training MRAP-based models on Stanford Dogs:**</u>
 
 
-Traning and testing MRAP$^{avg\_std}$ on Stanford Dogs for MobileNetV3 by default. Please change the code in the MRAP.py file for the favorable networks.
+Traning and testing MRAP$^{avg\_std}$ on Stanford Dogs by default. Please change the code in the MRAP.py file for the favorable networks.
 The default path of dataset: '../../../datasets/Stanford Dogs'.
 
 For tranining, run command:
