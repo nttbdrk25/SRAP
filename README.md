@@ -32,7 +32,7 @@ If you use any materials, please cite the following relevant works.
 @article{MRAPAttNguyen25,
   author       = {Thanh Tuan Nguyen, Hoang Anh Pham, Thinh Vinh Le, and Thanh Phuong Nguyen},
   title        = {Diverse residual attentive patterns for lightweight networks in image classification},
-  journal      = {Expert Systems with Applications},
+  journal      = {Computers and Electrical Engineering},
   note         = {Submitted 2025}
 }
 ```
