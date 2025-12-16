@@ -1,11 +1,19 @@
 # Selected residual attentive patterns for lightweight networks in image classification
 **Abstract:**
-Attention mechanism allows deep convolutional networks to concentrate on the important patterns instead of on the less useful information during the learning process.
-However, the discriminative power of current attention modules is still at a modest level because they have just addressed either one type of global channel-wise patterns or an expensive combination of two kinds of squeezes. In the case of using two types of those, the resultant weight volume has been less discriminative information caused by two separate excitation perceptrons with a double increase of computational complexity.
-To deal with these problems, an efficient attention module for lightweight networks is proposed by addressing two novel components of residual attentive information for a given tensor as follows: i) top-n multiple channel-based residual attentive patterns with a unitary excitation perceptron, and ii) multiple spatial-based residual attentive features.
-A simple fusion of these two attention components forms a robust volume of selected residual attentive patterns (named SRAP).
-To the best of our knowledge, it is the first time that a channel-spatial residual mechanism is proposed to reinforce the attentive information.
-Experimental results on benchmark datasets for image recognition have authenticated the prominent performance of SRAP in comparison with other attention modules.
+Modern deep networks often rely on attention modules which are still at a modest level
+due to using either one type of channel-wise patterns or an expensive combination of two
+types of them. In case of using all of those, the resultant weight volume has been less
+discriminative information due to two separate excitations along with a double increase of
+complexity. To deal with these limitations, an efficient attention module is proposed by
+addressing two novel components of residual attentive information for a given tensor as
+follows: i) top-n channel-residual attentive patterns with a unitary excitation perceptron,
+and ii) multiple spatial-residual attentive features. A simple fusion of these complementary
+components forms a robust volume of selected residual attentive patterns (named SRAP).
+To the best of our knowledge, it is the first time that a channel/spatial-residual mechanism
+is proposed to reinforce the attentive information. Experiments on benchmark datasets
+for image classification have proved the prominent performance of SRAP versus other
+attention modules. Particularly, SRAP improved the performance of concerning networks
+by up to ∼7% on ImageNet-100 without increasing the computational complexity.
 
 <u>**An example for training SRAP-based models on Stanford Dogs:**</u>
 
